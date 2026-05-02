@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.Python
+venv/
+.venv/
+env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+*.pyc
+
+# Node.js
+node_modules/
+dist/
+.next/
+
+# Variáveis de ambiente
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+*.swp
+*.swo
+
+# Claude Code — arquivos locais/sensíveis
+.claude/settings.local.json
+.claude/todos.json
+.claude/.session*
+.claude/cache/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
